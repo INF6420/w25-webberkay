@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background: #dcdcdc;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+
+
+header {
+    overflow: hidden;
+    background-color:#6495ed;
+    padding: 20px 10px;
+}
+
+header a {
+    float: right;
+    color: black; 
+    text-align:center; 
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.image1 {
+    width: 10%;
+    height: 10%;
+    border-radius: 100px;
+}
+
+.image2 {
+    max-width: 500px;
+    max-height:500px;
+    border-radius: 8px;
+}
+
+.image3 {
+    width: 20%;
+    height: 20%;
+    border-radius: 8px;
+}
+
+footer {
+    position:relative;
+    width: 100%;
+    background-color:#6495ed;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-bottom: 40px;
+}
+
+.text {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.text2 {
+    padding-bottom: 400Px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.form-input {
+    padding: 1em;
+    border: 3px solid #dcdcdc;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+.form-input:focus {
+    outline: none; 
+    border: 2px solid #6495ed;
+}
+
+[type="submit"] {
+    background: #f0f8ff;
+    color: #6495ed;
+    font-weight: 700;
+    width: 110%;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: .5em;
+    cursor: pointer;
+}
+
+[type="submit"]:hover,
+[type="submit"]:focus {
+    background: #0000cd;
+    color:#f0f8ff
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    margin: -1em 0 1.5em;
+}

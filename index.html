@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaleigh Webber's INF 6420 Project</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <img src="Webpages/default_image.png" alt="Kaleigh Webber's Logo">
-            <ul>
-                <li><a href="about-me.html">About Me</a></li>
-                <li><a href="Portfolio.html">Portfolio</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h2>Who Am I?</h2>
-        <p>I am a graduate student at Wayne State University, located in Detroit, Michigan.</p>
-    <footer>
-        <div>
-            <h3>Contact Information</h3>
-            <p>cp9165@wayne.edu</p>
-            <tel>734-756-2159</tel>
+    <link rel="stylesheet" href="style.css">
+<header>
+    <div class="header">
+        <div class="header-right">
+            <a class="active" href="index.html">Home</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="about-me.html">About Me</a>
+            <img src="Webpages/Logo2.png" class="image1">
         </div>
-    </footer>
+    </div>
+</header>
+
+<body>
+<h2>Who Am I?</h2>
+    <div class="text2">
+        <p>I am a graduate student at Wayne State University, located in Detroit, Michigan.</p>
+    </div>
+    <div class="container2">
+        <div></div>
+            <form action="https://formspree.io/f/xjkypyjk" method="post" class="validate">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" class="form-input">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="_replyto" class="form-input" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="spcript.js"></script>
 </body>
+<footer>
+    <div>
+        <h3>Contact Information</h3>
+        <p>cp9165@wayne.edu</p>
+        <tel>734-756-2159</tel>
+    </div>
+</footer>
 </html>
