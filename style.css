@@ -32,8 +32,8 @@ header a {
 }
 
 .image2 {
-    max-width: 500px;
-    max-height:500px;
+    width: 80%;
+    height:auto;
     border-radius: 8px;
 }
 
